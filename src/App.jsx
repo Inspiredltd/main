@@ -120,7 +120,7 @@ const styles = {
   }
 };
 
-//export default App;
-export default withAuthenticator(App);
+export default App;
+//export default withAuthenticator(App);
 
 //kick 4
