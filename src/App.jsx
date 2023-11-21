@@ -17,6 +17,7 @@ const initialState = { name: '', description: '' };
 const client = generateClient();
 
 const App = ({ signOut, user }) => {
+//const App = () => {
   const [formState, setFormState] = useState(initialState);
   const [todos, setTodos] = useState([]);
 
@@ -120,7 +121,7 @@ const styles = {
   }
 };
 
-export default App;
-//export default withAuthenticator(App);
+//export default App;
+export default withAuthenticator(App);
 
 //kick 4
